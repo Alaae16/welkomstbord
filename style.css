@@ -1,0 +1,228 @@
+*{
+    transition: all .2s linear;
+}
+
+.divje{
+    margin-top: 60px;
+}
+
+.welkomstHeader h1{
+    color: #1576ad;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.welkomstHeader p{
+    color: #797d80;
+    line-height: 0.4;
+    font-size: 18.5px;
+}
+
+.welkomstContent h4{
+    font-size: 20px;
+    color: #1576ad;
+}
+
+.welkomstContent p{
+    font-size: 15.5px;
+    line-height: 0.8;
+    color: #797d80;
+}
+
+.hline{
+    height: 1px;
+    background-color: #dce1e5;
+    margin: 16px auto 0 auto;
+}
+
+.tekstContainer{
+    border: 1pt solid #dce1e5;
+    color: #797d80;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button{
+    width: 100%;
+}
+
+#welkomstTekst{
+    font-size: 15px;
+    color: #797d80;
+}
+
+.justify-content-between {
+    justify-content: space-between!important;
+}
+
+/* page2 */
+.logo{
+    max-width: 260px;
+}
+
+header{
+    padding: 28px;
+}
+
+.slogan p {
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+.slogan strong {
+    font-weight: 700;
+}
+
+.smalltxt {
+    font-size: 17px;
+    margin-top: -10px;
+    display: block;
+}
+
+.slogan {
+    text-align: right;
+}
+
+.slogan span {
+    font-family: "Gloria Hallelujah", cursive;
+}
+
+#main{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-image: url(../img/Koffie_Background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#main .gradient {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+#main .text-container{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    color: #FFF;
+    text-align: center;
+}
+
+.peoplepicture {
+    position: fixed;
+    z-index: 502;
+    bottom: 0;
+    left: 50px;
+}
+
+.text-container h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: #fff;
+    transform: rotate(2deg);
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.text-container h6{
+    font-size: 40px;
+    margin-top: 100px;
+    line-height: 50px;
+    color: white;
+    font-family: "Gloria Hallelujah", cursive;
+}
+
+main .text-container h6 i {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    position: fixed;
+    bottom: 0;
+    z-index: 500;
+}
+
+.slopingbar {
+    z-index: 501;
+    position: absolute;
+    bottom: -45px;
+    left: -80%;
+    right: -150%;
+    height: 350px;
+    transform: rotate(-4deg);
+    background-color: rgb(255, 255, 255);
+}
+
+.arrow_text_container .arrow_text span {
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 24px;
+    -webkit-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    position: absolute;
+    top: -10px;
+    margin: 0 0 0 15px;
+}
+
+.arrow_text_container .arrow_text {
+    position: relative;
+    width: 400px;
+}
+
+.arrow_text_container .arrow_text span {
+    font-size: 24px;
+    position: absolute;
+    top: -10px;
+}
+
+.arrow_text_container {
+    width: 100%;
+    z-index: 1000;
+    padding: 0 300px;
+    height: 100px;
+    position: absolute;
+    bottom: 130px;
+}
+
+footer h3{
+    position: absolute;
+    bottom: 1px;
+}
+
+#colorPalette{
+    height: 38px;
+}
+
+@media only screen and (max-width: 991px) {
+    .input-group{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .kleurContainer{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .welkomstHeader p{
+        line-height: 1;
+    }
+    .welkomstContent p{
+        line-height: 1.2;
+    }
+}
